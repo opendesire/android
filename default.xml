@@ -8,7 +8,7 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="adamg-/android_build" remote="github">
+  <project path="build" name="opendesire/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -24,7 +24,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/generic" name="CyanogenMod/android_device_generic" remote="github" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/htc/bravo" name="adamg-/android_device_htc_bravo" remote="github" />
+  <project path="device/htc/bravo" name="opendesire/android_device_htc_bravo" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
 
 
@@ -129,7 +129,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
-  <project path="kernel-msm" name="adamg-/od-kernel" remote="github" revision="opendesire-ir2" />
+  <project path="kernel-msm" name="opendesire/od-kernel" remote="github" revision="opendesire-ir2" />
 
   <project path="ndk" name="platform/ndk" revision="master" />
 
@@ -157,7 +157,7 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
-  <project path="packages/apps/SoundRecorder" name="adamg-/android_packages_apps_soundrecorder" remote="github" />
+  <project path="packages/apps/SoundRecorder" name="opendesire/android_packages_apps_soundrecorder" remote="github" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="master" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="master" />
@@ -179,13 +179,13 @@
   <project path="prebuilt" name="platform/prebuilt" revision="master" />
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" />
-  <project path="system/core" name="adamg-/android_system_core" remote="github" />
+  <project path="system/core" name="opendesire/android_system_core" remote="github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/htc/bravo" name="adamg-/android_vendor_htc_bravo" remote="github" />
-  <project path="vendor/opendesire" name="adamg-/android_vendor_opendesire" remote="github" />
+  <project path="vendor/htc/bravo" name="opendesire/android_vendor_htc_bravo" remote="github" />
+  <project path="vendor/opendesire" name="opendesire/android_vendor_opendesire" remote="github" />
 
 </manifest>
